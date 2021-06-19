@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     width: 90%;
     user-select: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .Firstname:hover{
@@ -15,14 +16,17 @@ body{
     font-size: 40px;
 }
 
+/* shortintro  */
 .lit{
+    position: relative;
+    top: -12px;
     font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: cornsilk;
 }
 
 .lit:hover{
-    font-size: 15px;
+    font-size: 14px;
     
 }
 
@@ -103,6 +107,82 @@ body{
 .Container .card:hover .box .content h1{
     color: seagreen;
 }
+
+
+
+
+
+
+.Containeri{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 2000px;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.Containeri .cardi{
+
+    position: relative;
+    width: 850px;
+    height: 300px;
+    
+    border-radius: 15px;
+    
+
+}
+
+.Containeri .cardi .boxi{
+
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #ebf5fc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Containeri .cardi .boxi .contenti{
+    padding: 30px;
+    text-align: center;
+
+}
+
+.Containeri .cardi .boxi .contenti .HedBoxi{
+    position: absolute;
+    top: -12px;
+    text-align: right;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.Containeri .cardi:hover .boxi .contenti h1{
+    color: seagreen;
+}
+
+.para{
+    background-color: rgba(68, 63, 66, 0.144);
+    border-radius: 15px;
+    padding: 15px;
+    color: floralwhite;
+}
+.para:hover{
+    background-color: rgba(25, 131, 117, 0.836);
+    position: relative;
+    transition: 0.5s;
+}
+
+
 
 
 
