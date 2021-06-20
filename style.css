@@ -7,14 +7,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.Firstname:hover{
+.name:hover{
 
-    font-size: 40px;
+    font-size: 33px;
+    transition: 00.5s;
 }
 
-.Lastname:hover{
-    font-size: 40px;
-}
 
 /* shortintro  */
 .lit{
@@ -25,10 +23,13 @@ body{
     color: cornsilk;
 }
 
+
 .lit:hover{
     font-size: 14px;
+    transition: 00.5s;
     
 }
+
 
 
 
@@ -126,7 +127,7 @@ body{
 .Containeri .cardi{
 
     position: relative;
-    width: 850px;
+    width: 800px;
     height: 300px;
     
     border-radius: 15px;
@@ -184,7 +185,79 @@ body{
 
 
 
+@media screen and (max-width: 493px){
+    .Containeri .cardi{
+
+        position: relative;
+        width: 700px;
+        height: 400px;
+        
+        border-radius: 15px;
+        
+    
+    }
+    
+    
+}
 
 
 
+
+@media screen and (max-width: 493px){
+    .Containeri .cardi .boxi .contenti .HedBoxi{
+        position: absolute;
+        top: -1px;
+        left: 10px;
+        text-align: right;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        transition: 0.5s;
+    }
+
+
+   
+        
+    
+    }
+
+
+.skills{
+    background-color: rgba(75, 151, 202, 0.329);
+    color: azure;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border-color: cadetblue;
+}
+
+#but1:hover{
+    background-color:  rgba(25, 131, 117, 0.836);
+    font-size: 35px;
+    border-radius: 5px;
+    font-variant: normal;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#but2:hover{
+    background-color:  rgba(25, 131, 117, 0.836);
+    font-weight: 600;
+    font-size: 35px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#but3:hover{
+    background-color:  rgba(25, 131, 117, 0.836);
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#but4:hover{
+    background-color:  rgba(25, 131, 117, 0.836);
+    font-weight: 600;
+    font-size: 35px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
 /* watch video from 4:45 */
